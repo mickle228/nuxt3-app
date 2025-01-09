@@ -31,7 +31,7 @@ Open your browser and navigate to http://localhost:3000 to view the application 
 
 ### Additional Notes
 
--Ensure you have an active internet connection to fetch API data.
+- Ensure you have an active internet connection to fetch API data.
 
--If you encounter issues, please verify your Node.js and npm versions.
+- If you encounter issues, please verify your Node.js and npm versions.
 
