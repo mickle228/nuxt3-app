@@ -18,4 +18,14 @@ export default defineNuxtConfig({
       apiUrl: 'https://voicenter-test-api.voicenter-ltd.workers.dev/api/site-data'
     },
   },
+
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
+
+  app: {
+    baseURL: '/nuxt3-app/',
+  },
 })
