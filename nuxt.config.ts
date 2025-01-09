@@ -1,6 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+  ssr: false,
+
   modules: ['@pinia/nuxt'],
   css: ['@/assets/css/tailwind.css'],
 
@@ -21,7 +23,11 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/'],
+      routes: [
+        '/', 
+        '/about', 
+        '/contact',
+      ],
     },
   },
 
