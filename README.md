@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# Nuxt 3 Frontend Test Task
+Nuxt 3 Frontend Test Task
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Instructions to Run the Application
 
-## Setup
+Prerequisites
 
-Make sure to install dependencies:
+Ensure you have the following installed on your system:
 
-```bash
-# npm
+Node.js (v16 or higher)
+
+npm (Node Package Manager)
+
+Steps to Run the Application
+
+Clone the repository:
+
+git clone <repository_url>
+cd <repository_folder>
+
+Install dependencies:
+
 npm install
 
-# pnpm
-pnpm install
+Start the development server:
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
+Access the application:
 
-# yarn
-yarn dev
+Open your browser and navigate to http://localhost:3000 to view the application running locally.
 
-# bun
-bun run dev
-```
+Additional Notes
 
-## Production
+Ensure you have an active internet connection to fetch API data.
 
-Build the application for production:
+If you encounter issues, please verify your Node.js and npm versions.
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
