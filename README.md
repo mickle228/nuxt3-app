@@ -1,22 +1,21 @@
 # Nuxt 3 Frontend Test Task
-Nuxt 3 Frontend Test Task
 
-Instructions to Run the Application
+## Instructions to Run the Application
 
-Prerequisites
+### Prerequisites
 
 Ensure you have the following installed on your system:
 
-Node.js (v16 or higher)
+- **Node.js** (v16 or higher)
+- **npm** (Node Package Manager)
 
-npm (Node Package Manager)
+### Steps to Run the Application
 
-Steps to Run the Application
+1. **Clone the repository**:
 
-Clone the repository:
-
-git clone <repository_url>
-cd <repository_folder>
+   ```bash
+   git clone <repository_url>
+   cd <repository_folder>
 
 Install dependencies:
 
